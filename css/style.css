@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 500px;
+    margin: 25px auto;
+    background-color: rgba(252, 230, 205, 0.811);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 2, 87);
+}
+
+.legend {
+    font-size: 40px;
+}
+
+.form__fieldset {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #502578;
+}
+
+.form__field {
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+}
+
+.form__box {
+    width: 175px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #b591f0;
+}
+
+.form__button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #b591f0;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: #b591f0;
+    color: rgb(255, 255, 255);
+}
+
+.form__button:active {
+    background-color: #b591f0;
+}
+
+.form__button--clearButton {
+    width: 100%;
+    float: left;
+}
+
+.result {
+    color: #003a03;
+    text-align: center;
+    max-width: 450px;
+    max-height: 50px;
+    margin: 10px;
+    background-color: rgba(200, 204, 255, 0.753); 
+    box-shadow: 2px 2px 14px 10px rgba(205, 195, 252, 0.623);
+}
