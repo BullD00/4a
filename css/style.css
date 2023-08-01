@@ -9,13 +9,16 @@ html {
 .body {
     max-width: 500px;
     margin: 25px auto;
-    background-color: rgba(252, 230, 205, 0.811);
     font-family: 'Montserrat', sans-serif;
     color: rgb(1, 2, 87);
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: 100% ;
 }
 
 .legend {
     font-size: 40px;
+    background-color: rgb(187, 187, 187);
 }
 
 .form__fieldset {
@@ -23,7 +26,8 @@ html {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid #502578;
+    border: 2px solid #7a39b6;
+    background-color: rgb(187, 187, 187);
 }
 
 .form__field {
